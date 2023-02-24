@@ -1,0 +1,483 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .d1{
+    width: 550px;
+    background-color: white;
+    float: left;
+}
+
+.d2{
+    float: right;
+    width: 700px;
+    background-color: white;
+    margin-left: 90px;
+}
+.panel{
+
+}
+
+.d3{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin-right: 200px;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: 0px 0px 1px black, inset 0px 0px 3px black;
+    margin-left: 150px;
+    float: left;
+
+}
+
+.d4{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px black, inset 0px 0px 3px black;
+    float: right;
+    margin-top: 90px;
+} */
+
+/* .neon{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    margin: 150px auto;
+    box-shadow: 0 0 40px aqua, inset 0 0 40px aqua;
+    border: 3px solid aqua;
+}
+
+h1{
+    color: aqua;
+    font-family: arial;
+    text-align: center;
+    margin-top: 155px;
+    font-size: 60px;
+    font-weight: 1000;
+    text-shadow: 0px 0px 20px aqua,0px 0px 40px aqua, 400px 0px 0px rgba(0, 255, 255, 0.126),400px 100px 0px rgba(0, 255, 255, 0.126); */
+/* text-shadow: 0 0 40px aqua,0 0 40px aqua,0 0 15px rgba(0, 255, 255, 0.701); */
+/* -webkit-text-stroke-width: 2px; */
+/* -webkit-text-stroke-color: aqua; */
+/* } */
+
+body {
+  background: linear-gradient(rgb(240, 231, 221), rgb(232, 221, 220));
+}
+
+.one-screen {
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.left {
+  height: 100%;
+  width: 69%;
+  float: left;
+  background: white;
+  border-radius: 20px;
+}
+
+.right {
+  border-radius: 20px;
+  float: right;
+  height: 100%;
+  width: 29%;
+  background: white;
+}
+
+.d5 {
+  width: 80%;
+  height: 500px;
+  background-color: white;
+  margin-right: 200px;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 150px;
+  float: left;
+  margin-left: 10%;
+}
+.image {
+  margin-left: 10%;
+  margin-bottom: -200px;
+  float: left;
+}
+.search2 {
+  float: left;
+  width: 70%;
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  margin: 30px auto;
+  border: none;
+}
+.search {
+  background-color: linear-gradient(rgb(240, 231, 221), rgb(232, 221, 220));
+  margin: 50px auto;
+  height: 50px;
+  width: 55%;
+  border-radius: 20px;
+  margin-left: 100px;
+  float: right;
+  margin-right: 260px;
+  margin-bottom: 80px;
+}
+.d8 {
+  float: right;
+  width: 20%;
+  border-radius: 20px;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  background: linear-gradient(90deg, rgb(255, 139, 0), rgb(255, 90, 0));
+}
+.d8 .a1 {
+  color: white;
+}
+
+#inp {
+  height: 100%;
+  outline: none;
+  padding-left: 14px;
+  border-radius: 20px;
+  border: none;
+  width: 70%;
+}
+li {
+  float: left;
+}
+.change-text {
+  color: black;
+  font-size: em;
+  padding: 6 0px 20px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.change-text:hover {
+  color: rgb(255, 89, 0);
+}
+ol {
+  padding-left: 25px;
+  padding-top: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: medium;
+  float: left;
+}
+
+.h21 {
+  color: rgb(81, 75, 75);
+  font-size: medium;
+  padding: 0px 0px;
+  text-transform: uppercase;
+}
+
+ol > li {
+  list-style-type: none;
+  counter-increment: list;
+}
+ol > li:before {
+  content: counter();
+}
+.inside {
+  height: 85%;
+  margin-top: 5%;
+  float: right;
+  background-color: white;
+  width: 500px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+.top {
+  background-color: white;
+  height: 48%;
+  border-radius: 20px;
+}
+.bottom {
+  background-color: rgb(244, 244, 244);
+  height: 48%;
+  border-radius: 20px;
+  margin-top: 2%;
+  padding: 15px 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: medium;
+}
+.right2 {
+  float: right;
+  width: 49%;
+  border-radius: 20px;
+  background-color: rgb(244, 244, 244);
+  height: 100%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: medium;
+  padding: 15px 15px;
+}
+.left1 {
+  float: left;
+  width: 49%;
+  background-color: rgb(244, 244, 244);
+  height: 100%;
+  border-radius: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: medium;
+  padding: 15px 15px;
+}
+.top-panel {
+  height: 50px;
+  background-color: rgb(245, 245, 245);
+  padding-left: 10px;
+}
+.right-side {
+  float: right;
+  padding: 12px;
+}
+
+.target1 {
+  color: black;
+  float: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: small;
+  padding: 17px 15px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding-left: 100px;
+}
+.left-side:hover {
+  color: rgb(255, 89, 0);
+}
+.right-inside {
+  width: 48%;
+  float: right;
+  background-color: white;
+  height: 65%;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.left-inside {
+  float: left;
+  width: 48%;
+  background-color: white;
+  height: 65%;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.left-inside1 {
+  float: left;
+  width: 48%;
+  background-color: white;
+  height: 65%;
+  margin-top: 46px;
+  border-radius: 20px;
+}
+.right-inside1 {
+  width: 48%;
+  float: right;
+  background-color: white;
+  height: 65%;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.right-inside2 {
+  width: 24%;
+  float: right;
+  background-color: white;
+  height: 70%;
+  margin-top: 35px;
+  border-radius: 20px;
+  margin-right: -5px;
+}
+.right-inside2-1 {
+  float: right;
+  background-color: white;
+  height: 70%;
+  margin-top: 35px;
+  border-radius: 20px;
+  width: 23%;
+  margin-right: 10px;
+}
+.left-inside2 {
+  float: left;
+  width: 24%;
+  background-color: white;
+  height: 70%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.left-inside2-1 {
+  float: left;
+  width: 23%;
+  background-color: white;
+  height: 70%;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+.target11 {
+  color: rgb(255, 89, 0);
+  float: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: small;
+  padding: 17px 15px 0px;
+}
+.target12 {
+  color: black;
+  float: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: small;
+  padding: 17px 10px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.target2 {
+  color: black;
+  float: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: small;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.target1:hover {
+  color: rgb(255, 89, 0);
+}
+.target12:hover {
+  color: rgb(255, 89, 0);
+}
+.target2:hover {
+  color: rgb(255, 89, 0);
+}
+.image2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.image3 {
+  width: 100%;
+  height: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.s {
+  padding-left: 40px;
+  padding-top: 1000px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: xx-large;
+}
+.target21 {
+  color: black;
+  float: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: small;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-right: 100px;
+}
+.target21:hover {
+  color: rgb(255, 89, 0);
+}
+
+.change-text2 {
+  color: red;
+}
+
+.change-text2:hover {
+  color: blue;
+}
+.card {
+  height: 310px;
+  /* background-color: rgb(245, 245, 245); */
+  background-color: aqua;
+  width: 260px;
+  border: 20px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.image4 {
+  border-radius: 20px;
+  width: 250px;
+  margin-left: 5px;
+  height: 210px;
+  margin-top: 5px;
+}
+
+.goods {
+  /* height: 400px; */
+  width: 80%;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 205px;
+  background: white;
+  padding: 50px 0px;
+}
+
+.item {
+  height: 310px;
+  width: 230px;
+  border-radius: 20px;
+  transition-duration: .3s;
+  display: inline-block;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 10px 1%;
+}
+
+.item figure {
+  height: 220px;
+  width: 100%;
+  border-radius: 20px;
+  background: blue;
+}
+
+.item figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.item:hover{
+  box-shadow: 0 15px 20px rgba(52, 49, 49, 0.703);
+}
+
+.cool{
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: -30px;
+  padding-bottom: 50px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: xx-large;
+}
+
+.linked{
+  padding-top: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: medium;
+  margin-left: 0px;
+  color: rgb(48, 43, 43);
+}
+
+.image5{
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  margin-left: 5px;
+  height: 100%;
+  margin-top: 5px;
+}
